@@ -29,17 +29,20 @@ p {
 .row {
     display: flex;
     width: 100%;
+    max-width: 1280px;
     margin: 0 auto;
     justify-content: space-around;
 }
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
+
+#landing {}
 
 
 /*
@@ -50,6 +53,7 @@ NAVIGATION
 
 nav {
     display: flex;
+    justify-content: space-around;
     margin: 32px;
 }
 
@@ -103,6 +107,7 @@ HEADER
 
 */
 
+
 .header__description {
     width: 40%;
     display: flex;
@@ -112,7 +117,7 @@ HEADER
 
 .header__img {
     width: 100%;
-    max-width: 100px;
+    max-width: 48rem;
 }
 
 .header__img--wrapper {
