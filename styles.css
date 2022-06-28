@@ -260,7 +260,19 @@ QUALITY
 .quality__description {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 50%;
+}
+
+.quality__description--subtitle {
+    font-size: 48px;
+    color: #243E63;
+    font-weight: 900;
+}
+
+.quality__description--para {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .quality__img {
