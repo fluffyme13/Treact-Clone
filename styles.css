@@ -166,3 +166,42 @@ header {
     max-width: 400px;
     width: 100%;
 }
+
+/* 
+
+MAIN
+
+*/
+
+.main__title--text {
+    text-align: center;
+}
+
+.main__elements {
+    padding-bottom: 32px;
+}
+
+.main__elements--features {
+    font-weight: 700;
+}
+
+.main__elements--heading {
+    font-weight: 900;
+    font-size: 48px;
+    color: #243E63;
+}
+
+.service__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.service {
+    display: flex;
+    width: calc(100%/3);
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
