@@ -191,6 +191,13 @@ MAIN
     color: #243E63;
 }
 
+.main__elements--para {
+    font-weight: 500;
+    text-align: center;
+    color: #7C8BA1;
+    line-height: 1.75em;
+}
+
 .service__description {
     display: flex;
     flex-direction: column;
