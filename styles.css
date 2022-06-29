@@ -48,6 +48,30 @@ NAVIGATION
 
 */
 
+.link__hover--effect:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    bottom: -3px;
+    right: -1px;
+    transition: all 450ms ease;
+}
+
+.link__hover--effect--white:after {
+    background-color: white;
+}
+
+.link__hover--effect--black:after {
+    background-color: #242424;
+}
+
+.link__hover--effect:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -250,6 +274,7 @@ QUALITY
 
 .quality {
     display: flex;
+    margin-top: 160px;
 }
 
 .quality__description--header {
@@ -264,6 +289,10 @@ QUALITY
     width: 50%;
 }
 
+.quality__description--element {
+    padding-bottom: 32px;
+}
+
 .quality__description--subtitle {
     font-size: 48px;
     color: #243E63;
@@ -273,8 +302,19 @@ QUALITY
 .quality__description--para {
     font-size: 18px;
     font-weight: 400;
+    line-height: 1.75em;
 }
 
 .quality__img {
     width: 50%;
+}
+
+/*
+
+SPACING FOR BOTTOM
+
+*/
+
+footer {
+    padding-bottom: 500px;
 }
