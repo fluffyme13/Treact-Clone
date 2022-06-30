@@ -271,7 +271,7 @@ QUALITY
 
 .quality__section {
     display: flex;
-    margin-top: 160px;
+    margin: 160px 0;
 }
 
 .quality__description--header {
@@ -313,7 +313,17 @@ STEPS
 
 */
 
+.steps__section {
+    display: flex;
+}
 
+.steps__img--laptop {
+    width: 50%;
+}
+
+.steps__description {
+    width: 50%;
+}
 
 /*
 
