@@ -29,7 +29,7 @@ p {
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1275px;
     margin: 0 auto;
 }
 
@@ -135,7 +135,7 @@ header {
 
 
 .header__description {
-    width: 40%;
+    width: 43%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -148,11 +148,15 @@ header {
 }
 
 .header__img--wrapper {
-    width: 60%;
+    width: 57%;
 }
 
 .header__description--title {
     font-size: 48px;
+}
+
+.header__description--sub {
+    padding-top: 56px;
 }
 
 .header__description--para {
@@ -237,7 +241,7 @@ MAIN
     width: calc(100%/3);
     align-items: center;
     justify-content: center;
-    margin: 48px 0;
+    margin: 36px 0;
     transition: all 350ms ease;
 }
 
