@@ -19,9 +19,6 @@ body {
     padding: 32px;
 }
 
-.purple {
-    color: #6415FF;
-}
 
 h1,
 h2,
@@ -272,7 +269,7 @@ QUALITY
 
 */
 
-.quality {
+.quality__section {
     display: flex;
     margin-top: 160px;
 }
@@ -308,6 +305,15 @@ QUALITY
 .quality__img {
     width: 50%;
 }
+
+
+/*
+
+STEPS
+
+*/
+
+
 
 /*
 
