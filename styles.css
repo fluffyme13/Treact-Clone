@@ -153,7 +153,6 @@ header {
 
 .header__description--title {
     font-size: 48px;
-    font-weight: 600;
 }
 
 .header__description--sub {
@@ -333,13 +332,19 @@ STEPS
 
 .step__number{
     color: #CBD5E0;
+    font-size: 36px;
+    font-weight: 600;
 }
 
 .steps__description--subtitle {
     font-size: 48px;
-    font-weight: 600;
     color: #243E63;
 }
+
+.steps__description--title {
+    font-weight: 700;
+}
+
 /*
 
 SPACING FOR BOTTOM
