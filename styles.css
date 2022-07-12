@@ -153,6 +153,7 @@ header {
 
 .header__description--title {
     font-size: 48px;
+    font-weight: 600;
 }
 
 .header__description--sub {
@@ -325,10 +326,20 @@ STEPS
     width: 50%;
 }
 
-.steps__description {
-    width: 50%;
+
+.step {
+    display: flex;
 }
 
+.step__number{
+    color: #CBD5E0;
+}
+
+.steps__description--subtitle {
+    font-size: 48px;
+    font-weight: 600;
+    color: #243E63;
+}
 /*
 
 SPACING FOR BOTTOM
