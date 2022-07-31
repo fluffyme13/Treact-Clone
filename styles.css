@@ -304,6 +304,7 @@ QUALITY
     font-size: 18px;
     font-weight: 400;
     line-height: 1.75em;
+    color: #7C8BA1;
 }
 
 .quality__img {
@@ -317,12 +318,16 @@ STEPS
 
 */
 
+
 .steps__section {
     display: flex;
 }
 
 .steps__img--laptop {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -335,15 +340,47 @@ STEPS
     font-size: 36px;
     font-weight: 600;
 }
+.steps__description {
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+    align-items: space-between;
+}
+
+.step__description {
+    padding-bottom: 32px;
+    margin-left: 1.5em;
+}
 
 .steps__description--subtitle {
     font-size: 48px;
     color: #243E63;
+    font-weight: 900;
 }
 
+.steps__description--title {
+    font-weight: 700;
+}
+
+.steps__description--element {
+    padding-bottom: 32px;
+}
 .step__description--title {
     font-weight: 600;
     font-size: 1.25em;
+    color: #243E63;
+}
+
+.step__description--para {
+    font-weight: 500;
+    line-height: 2;
+    margin-top: 0.75em;
+    font-size: 0.875rem;
+    color: #7C8BA1;
+}
+
+.steps__upper {
+    padding-bottom: 32px;
 }
 
 /*
