@@ -341,8 +341,9 @@ STEPS
     color: #243E63;
 }
 
-.steps__description--title {
-    font-weight: 700;
+.step__description--title {
+    font-weight: 600;
+    font-size: 1.25em;
 }
 
 /*
